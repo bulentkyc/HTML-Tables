@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table { 
+    border-spacing: 0;
+}
+
+#calendar > tbody > tr > td {
+    width: 70px;
+    height: 50px;
+    vertical-align: top;
+}
+
+#calendar > thead tr {
+    height: 50px;
+}
+
+#calendar > thead tr:nth-of-type(1) {
+    background-color: #14213d;
+    color: white;
+}
+
+#calendar > thead tr:nth-of-type(2) {
+    background-color: #fca311;
+    color: white;
+}
+
+#calendar > tbody tr:nth-of-type(odd) {
+    background-color: #e5e5e5;
+    
+}
+
+#calendar > tr>td:nth-of-type(6), tr>td:nth-of-type(7) {
+    background: #7584a7;
+    color: white;
+}
+
+#pricing {
+    margin: auto;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pricing > thead > tr > th {
+    border: none;
+}
+
+
+#pricing > thead > tr > th > p {
+    border-radius: 50%;
+    padding: 5px;
+    width: 15px;
+    margin: auto;
+    margin-bottom: -15px;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+}
+
+#pricing > thead > tr > th:nth-of-type(1) > p {
+    background: #48cae4;
+}
+
+#pricing > thead > tr > th:nth-of-type(2) > p {
+    background: #83c5be;
+}
+
+#pricing > thead > tr > th:nth-of-type(3) > p {
+    background: #7400b8;
+}
+
+#pricing > thead > tr > th:nth-of-type(4) > p {
+    background: #9d4edd;
+}
+
+
+
+#pricing > tbody > tr > td {
+    width: 100px;
+    text-align: center;
+    border: none;
+
+    border-left: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr > td:nth-last-of-type(1) {
+    border-right: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(1) > td {
+    border-top: 1px solid rgb(202, 199, 199);
+}
+#pricing > tbody > tr:nth-last-of-type(1) > td {
+    border-bottom: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(1) {
+    font-size: 12px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+#pricing > tbody > tr:nth-of-type(2) {
+    font-size: 30px;
+}
+
+#pricing > tbody > tr:nth-of-type(3) {
+    font-size: 12px;
+}
+
+#pricing > tbody > tr:nth-of-type(4) > td > hr {
+    width: 80px;
+    border: none;
+    border-top: 1px solid rgb(202, 199, 199);
+}
+
+#pricing > tbody > tr:nth-of-type(5) {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#pricing > tbody > tr:nth-of-type(6) {
+    font-size: 10px;
+    height: 30px;
+    vertical-align: top;
+}
